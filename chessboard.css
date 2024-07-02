@@ -1,0 +1,14 @@
+/* styles for the board */
+#divChessboard{
+    width: 400px; /* set the width of the chessboard */
+    height: 400px; /* set the height of the chessboard */
+    border: 1px solid black; /* add a border around the outside of the chessboard */
+}
+
+/* styles for the chess squares */
+.chessSquare{
+    float: left; /* align the squares next to each other */
+    width: 50px; /* set the width of each square */
+    height: 50px; /* set the height od each square */
+    background-color: white;
+}
